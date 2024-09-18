@@ -1,0 +1,105 @@
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+	font-family: 'Roboto Slab', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: bold;
+}
+
+p {
+	text-align: justify;
+}
+
+.container {
+	max-width: 700px;
+}
+
+#innerNav.container .navbar-brand {
+	padding-left: 31px;
+}
+
+#top.container {
+	margin-top: 30px;
+}
+
+h2 {
+	margin-top: 40px;
+}
+
+h2:first-child {
+	margin-top: 0;
+}
+
+.award {
+	color: #4f9a4f;
+	font-weight: bold;
+}
+
+.paper-actions {
+	margin-top: 8px;
+	margin-bottom: 12px;
+}
+
+.hidden {
+	display: none;
+}
+
+@media (max-width: 700px) {
+	#top.container {
+		margin-top: 15px;
+	}	
+}
+
+.press {
+	margin: 0;
+	margin-top: 10px;
+	padding: 0;
+}
+
+.press li {
+	list-style: none;
+	display: block;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 10px;
+	padding: 0;
+	height: 50px;
+}
+
+.press li img {
+	background-color: white;
+	max-height: 50px;
+	max-width: 160px;
+}
+
+#footer {
+	padding-top: 15px;
+}
+
+html,
+body {
+	height: 100%;
+	/* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	/* Negative indent footer by its height */
+	margin: 0 auto -60px;
+	/* Pad bottom by footer height */
+	padding: 0 0 80px;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+	height: 60px;
+	background-color: #f5f5f5;
+}
